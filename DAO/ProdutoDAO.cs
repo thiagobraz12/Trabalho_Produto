@@ -92,7 +92,7 @@ namespace Trabalho_Produto.DAO
 
             try
             {
-                var sql = "SELECT * FROM produto ORDER BY nome";
+                var sql = "SELECT * FROM produto ORDER BY nomeproduto";
                 MySqlCommand command = new MySqlCommand(sql, Conexao.Conectar());
                 using (MySqlDataReader dr = command.ExecuteReader())
                 {
