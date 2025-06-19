@@ -11,7 +11,7 @@ class Program
         int opcao;
         do
         {
-            Console.WriteLine("=== Menu Cadastro Produtos ===");
+            Console.WriteLine("============================ Menu Cadastro Produtos =================");
             Console.WriteLine("");
             Console.WriteLine("1 - Cadastrar Produtos");
             Console.WriteLine("2 - Listar Produtos");
@@ -83,7 +83,7 @@ class Program
             Console.Write("Marca: ");
             prod.marca = Console.ReadLine();
 
-            Console.Write("Unidade: ");
+            Console.Write("Unidade :");
             prod.unidade = Console.ReadLine();
 
             ProdutoDAO cadastro_prod = new ProdutoDAO();
@@ -141,7 +141,7 @@ class Program
             Console.Write("Nova Marca: ");
             prod.marca = Console.ReadLine();
 
-            Console.Write("Nova Unidade: ");
+            Console.Write("Nova Unidade : ");
             prod.unidade = Console.ReadLine();
 
             ProdutoDAO cadastro_prod = new ProdutoDAO();
